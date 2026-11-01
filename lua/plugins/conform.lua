@@ -7,6 +7,8 @@ return {
 			typescriptreact = { "biome" },
 			json = { "biome" },
 			jsonc = { "biome" },
+			markdown = { "rumdl" },
+			["markdown.mdx"] = { "rumdl" },
 		},
 	},
 }
