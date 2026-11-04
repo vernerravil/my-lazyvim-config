@@ -24,7 +24,7 @@ return {
 			hide_numbers = true,
 			direction = "horizontal",
 			close_on_exit = true,
-			start_in_insert = false,
+			start_in_insert = true,
 		})
 
 		vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit Normal mode" })
